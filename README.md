@@ -2,6 +2,10 @@
 GUI application is used to make python package for pypi and test pypi and upload.
 This lets user avoid using cmd commands for the same
 
+
+cmd command : to_pypi.py (after pip installation the package)
+	      *always use file extension .py in command terminal to run
+
 Procedure:
 	 User needs to make setup.py,README.md,MANIFEST.in
 	 Open application select setup.py
@@ -12,7 +16,7 @@ Procedure:
 Requirement: PyQt4==4.11.4,twine==3.1.1,wheel==0.34.2
 
 *You can also manually install these libraries using <pip install PyQt4> <pip install twine> <pip install wheel>
-or use Requirements.txt file using <pip install -r Requirements.txt>
+or use Requirements.txt file using <pip install -r requirements.txt>
 
 Feedbacks and suggestions for improvement are always welcomed
 email id: MadeWithPY009@gmail.com 
